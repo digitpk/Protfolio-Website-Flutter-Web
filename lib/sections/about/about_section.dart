@@ -40,13 +40,13 @@ class AboutSection extends StatelessWidget {
             children: [
               MyOutlineButton(
                 imageSrc: "assets/images/hand.png",
-                text: "Hire Me!",
+                text: "SignIn",
                 press: () {},
               ),
               SizedBox(width: kDefaultPadding * 1.5),
               DefaultButton(
                 imageSrc: "assets/images/download.png",
-                text: "Download CV",
+                text: "SignUp",
                 press: () {},
               ),
             ],

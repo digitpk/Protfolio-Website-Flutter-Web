@@ -18,7 +18,7 @@ class TopSection extends StatelessWidget {
       decoration: BoxDecoration(
         image: DecorationImage(
           fit: BoxFit.cover,
-          image: AssetImage("assets/images/background.png"),
+          image: AssetImage("assets/bg2.png"),
         ),
       ),
       child: Container(

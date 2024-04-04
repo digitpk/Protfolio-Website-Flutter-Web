@@ -37,19 +37,19 @@ class HireMeCard extends StatelessWidget {
               crossAxisAlignment: CrossAxisAlignment.start,
               children: [
                 Text(
-                  "Starting New Project?",
+                  "Want to get onboard?",
                   style: TextStyle(fontSize: 42, fontWeight: FontWeight.bold),
                 ),
                 SizedBox(height: kDefaultPadding / 2),
                 Text(
-                  "Get an estimate for the new project",
+                  "Remove H2O Manages your businesses with ease. So, why wait...",
                   style: TextStyle(fontWeight: FontWeight.w200),
                 )
               ],
             ),
           ),
           DefaultButton(
-            text: "Hire Me!",
+            text: "SignIn/SignUp",
             imageSrc: "assets/images/hand.png",
             press: () {},
           )

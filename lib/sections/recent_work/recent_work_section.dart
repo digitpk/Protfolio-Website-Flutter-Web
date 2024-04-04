@@ -28,9 +28,9 @@ class RecentWorkSection extends StatelessWidget {
             child: HireMeCard(),
           ),
           SectionTitle(
-            title: "Recent Woorks",
+            title: "Recent Works",
             subTitle: "My Strong Arenas",
-            color: Color(0xFFFFB100),
+            color: Color(0xFF00FFD9),
           ),
           SizedBox(height: kDefaultPadding * 1.5),
           SizedBox(

@@ -36,7 +36,9 @@ class _RecentWorkCardState extends State<RecentWorkCard> {
         decoration: BoxDecoration(
           color: Colors.white,
           borderRadius: BorderRadius.circular(10),
-          boxShadow: [if (isHover) kDefaultCardShadow],
+          boxShadow: [
+            if (isHover) kDefaultCardShadow,
+          ],
         ),
         child: Row(
           children: [

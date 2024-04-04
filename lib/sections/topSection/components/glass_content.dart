@@ -29,14 +29,14 @@ class GlassContent extends StatelessWidget {
             mainAxisAlignment: MainAxisAlignment.center,
             children: [
               Text(
-                "Hello There!",
+                "Welcome! to",
                 style: Theme.of(context)
                     .textTheme
                     .headline5
                     .copyWith(color: Colors.white),
               ),
               Text(
-                "Robbie \nRutherford",
+                "Remove \nH2O",
                 style: TextStyle(
                   fontSize: 100,
                   fontWeight: FontWeight.bold,
@@ -45,7 +45,7 @@ class GlassContent extends StatelessWidget {
                 ),
               ),
               Text(
-                "Creative Design Director",
+                "Manages your Business with ease",
                 style: Theme.of(context)
                     .textTheme
                     .headline5
